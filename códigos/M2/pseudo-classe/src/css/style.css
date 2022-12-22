@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div:hover{
+    color: red;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: black;
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+}

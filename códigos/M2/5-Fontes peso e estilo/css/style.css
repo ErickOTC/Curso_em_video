@@ -1,0 +1,20 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    
+    /*
+        Medidas absolutas 
+            cm, mm, in, px, pt, pc
+    
+        Medidas relativas
+            em, ex, rem, vw, vh, %
+
+        Recomendadas pelo w3c
+        px ou em
+        16px = 1em
+    */
+    font-size: 1.2em ;
+}
+
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+}

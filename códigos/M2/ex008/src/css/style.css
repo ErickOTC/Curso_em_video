@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+h1{
+    /* short hand */
+
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkolivegreen;
+    */
+
+    border: 15px solid darkolivegreen;
+
+    /*
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    */
+    
+    padding: 5px 10px 15px 20px;
+
+    /* 
+    se as quatro forem iguais pode ultilizar:
+    padding: 10px;
+
+    padding: 10px (cima) 20px(lados);
+    */
+
+    /* margin: auto; centraliza */
+
+    /*
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    */
+
+    margin: 5px auto 15px auto;
+
+    /*
+    outline-width: 15px; / dentro da margem /
+    outline-style: dashed;
+    outline-color: aqua;
+    */
+
+    outline: 15px dashed aqua;
+
+     /*
+    display: inline; //transforma em um elemento em linha
+    */
+}
+
+a{
+    /*
+    border-width: 4px;
+    border-style: dotted;
+    border-color: darkolivegreen;
+    */
+
+    border: 4px dotted darkolivegreen;
+
+    /*
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin: 15px;
+    */
+
+    margin: 15px;
+
+    /*
+    display: block; //transforma em caixa
+    */
+}

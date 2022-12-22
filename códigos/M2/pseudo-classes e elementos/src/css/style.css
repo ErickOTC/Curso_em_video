@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:visited{
+    color: rgb(255, 0, 0);
+}
+
+a:hover{
+    color: rgb(123, 255, 0);
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(234, 0, 255);
+}
+
+a::after{
+    content: ' [Link]';
+    color: grey;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.ConteudoImportante a{
+    background-color: rgb(255, 65, 65);
+    width: 100px;
+    color: white;
+}
+
+.ConteudoImportante::before{
+    content: '⇛ ';
+    background-color: rgb(255, 65, 65);
+    color: white;
+}
+
+.ConteudoImportante::after{
+    content: ' ⇚';
+    background-color: rgb(255, 65, 65);
+    color: white;
+}

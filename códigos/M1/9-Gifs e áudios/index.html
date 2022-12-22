@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio na web</title>
+</head>
+<body>
+    <h1>Gif funciona com o comando img</h1>
+    <img src="gif/Shinkuu_Hadouken.webp" alt="Hadouken">
+    <h1>Áudio do Hadouken</h1>
+    <audio src="media/hadouken-mp3.mp3" controls autoplay title="Hadouken"></audio>
+    <!-- MP3 WAV OGG -->
+    <h2>ultilizando sourse no áudio: MP3 WAV OGG</h2>
+    <audio preload="metadata" autoplay controls loop title="Hadouken"> <!-- Podemos ultilizar o loop para o áudio reiniciar sozinho -->
+        <source src="media/hadouken-mp3.mp3" type="audio/mpeg">
+        <source src="media/hadouken-ogg.ogg" type="audiio/ogg">
+        <source src="media/hadouken-wav.wav" type="audio/wav"> <!-- Não usar por que é muito pesado -->
+        <p>Seu navegador não consegue baixar áudio. <br>
+        <a href="media/hadouken-mp3.mp3">Clique aqui para baixar o áudio em mp3!</a></p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.nome{
+    background-color: blue;
+    color: white;
+}
+
+.hexadecimal{
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+.rgb{
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+/* hsl(hue, saturation, lightness); */
+.hsl{ 
+    background-color: hsl(240,100%,50%);
+    color: hsl(0, 0%, 100%);
+}

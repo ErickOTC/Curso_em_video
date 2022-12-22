@@ -1,0 +1,12 @@
+body#pag1{
+    background-image:linear-gradient(rgb(49, 49, 255),black);
+    color: white;
+}
+body#pag2{
+    background-image:radial-gradient(rgb(255, 94, 0), black);
+    color: white;
+}
+input{
+    background-image:radial-gradient(rgb(46, 46, 46),rgb(61, 61, 61));
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div{
+    background-color: lightgray;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    display: inline-block;
+    
+}
+
+div:hover{
+    color: aqua;
+    background-color: black;
+}
