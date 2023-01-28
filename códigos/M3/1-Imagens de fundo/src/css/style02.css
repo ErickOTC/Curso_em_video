@@ -1,0 +1,9 @@
+body{
+    /* imagem de fundo com url */
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg
+);
+
+    /* tamanho de cada imagem individual e fixo */
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
