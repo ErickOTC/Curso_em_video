@@ -1,0 +1,32 @@
+body{
+    /* 
+    -não fazer-
+    height: 97vh;
+    background-size: 100% 100%;
+    */
+    
+    height: 97vh;
+    background-color: black;
+    background-image: url(../img/wallpaper002.jpg);
+
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+    /*
+    -background-size-
+
+    *background-size: contain; 100% da imagem
+    *background-image: cover; cobre o fundo todo da imagem fazendo cortes na imagem real
+    */
+
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+}
