@@ -1,0 +1,62 @@
+/*
+-- centralizando container e conteúdo --
+#container{
+    height: 100vh;
+    
+    background-image: url(../img/target001.png);
+    background-size: 100% 100%;
+
+    position: relative;
+}
+
+#conteudo{
+    -tamanho do conteúdo-
+    height: 200px;
+    width: 400px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    background-image: url(../img/target001.png);
+    background-size: 100% 100%;
+
+    -equivalente-
+    transform: translate(-200px,-100px);
+    transform: translate(-50%,-50%);
+    
+
+    transform: translate(-50%,-50%);
+}
+*/
+
+section#container{
+    height: 94vh;
+    background-color: purple;
+    
+    background-image: url(../img/target001.png);
+    background-size: 100% 100%;
+
+    position: relative;
+}
+
+article#conteudo{
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    background-image: url(../img/target001.png);
+    background-size: 100% 100%;
+
+    /*
+    -equivalente
+    transform: translate(-200px,-100px);
+    transform: translate(-50%,-50%);
+    */
+
+    transform: translate(-50%,-50%);
+}
