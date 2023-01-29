@@ -40,7 +40,7 @@ header> h1{
 
     font-variant: small-caps;
     font-family: var(--fonte-titulo);
-    font-size: 10vh;
+    font-size: 8vw;
 }
 
 header> p{
@@ -64,7 +64,12 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte-conteudo);
-    font-size: 7vh;
+    font-size: 6vw;
+    
+}
+
+section> p{
+    padding-bottom: 2em;
 }
 
 section.fundo{
@@ -81,6 +86,14 @@ section.imagem> p{
     display: inline-block;
     background-color: rgb(65, 65, 65);
     padding: 5px;
+}
+
+section#img01{
+    background-image: url(../img/);
+}
+
+section#img02{
+    background-image: url();
 }
 
 footer{
