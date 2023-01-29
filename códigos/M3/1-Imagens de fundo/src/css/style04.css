@@ -1,0 +1,43 @@
+/* 
+    -coluna linhas-
+    background-position: left top;
+    background-position: center top;
+    background-position: right top;
+
+    background-position: left center;
+    background-position: center center;
+    background-position: right center;
+
+    background-position: left bottom;
+    background-position: center bottom;
+    background-position: right bottom;
+    
+    */
+
+body{
+
+    height: 97vh;
+    
+    /*
+
+    -Imagens-
+
+    - background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSysschOVMO69njI8xX6LMacjANlfE_hQF1Hmg62IKLoNvFixbF_8AD-pkSCaggH3NKtqw&usqp=CAU);
+
+    - background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-IZX6SNRfF99P2KKHAV2QyRonyfp2EM1IKM98W8NjoKP5YYRQa217F-9Y4LmnVNRxp-4&usqp=CAU);
+
+    - background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPqkLZ0EhgB59qreGbzvSvpuUx2oaj4jruDMAj_SHFR1B4k8DPr5lg0euuQluKVJxGwD4&usqp=CAU);
+
+    - background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFym2bZjfEewMM48tLLKbJ_j3flCI8zIxuXq66qxgSluzlHGKYV7SvFrMzC95zZ9jr2k&usqp=CAU);
+
+    - background-image: url(https://gustavoguanabara.github.io/images/mascote-html5.png);
+
+    */
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSysschOVMO69njI8xX6LMacjANlfE_hQF1Hmg62IKLoNvFixbF_8AD-pkSCaggH3NKtqw&usqp=CAU);
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100px 100px;
+
+}

@@ -1,0 +1,24 @@
+/* 
+    -coluna linhas-
+    background-position: left top;
+    background-position: center top;
+    background-position: right top;
+
+    background-position: left center;
+    background-position: center center;
+    background-position: right center;
+
+    background-position: left bottom;
+    background-position: center bottom;
+    background-position: right bottom;
+    
+    */
+
+body{      
+    background-image: url(../img/wallpaper003.jpg);
+        
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    height: 97vh;
+}
