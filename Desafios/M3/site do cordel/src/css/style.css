@@ -73,27 +73,33 @@ section> p{
 }
 
 section.fundo{
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     color: black;
 }
 
 section.imagem{
     background-color: rgb(40, 40, 40);
     color: white;
+    box-shadow: inset 8px 8px 15px 0px rgb(40, 40, 40);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem> p{
     display: inline-block;
-    background-color: rgb(65, 65, 65);
+    background-color: rgba(65, 65, 65, 0.500);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 
 section#img01{
-    background-image: url(../img/);
+    background-image: url(../img/fundo01.jpg);
+    background-position: right center; 
 }
 
 section#img02{
-    background-image: url();
+    background-image: url(../img/fundo02.jpg);
+    background-position: right center;
 }
 
 footer{
