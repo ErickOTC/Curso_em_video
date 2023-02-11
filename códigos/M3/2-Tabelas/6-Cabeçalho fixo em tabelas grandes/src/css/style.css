@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+thead > tr > th { /* cabeçalho fixo em tabelas */
+    position: sticky; /* colar */
+    top: -1px;
+
+    background-color: rgb(100, 100, 100);
+}
+
+thead, tfoot {
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+ /* 
+    efeito zebrado com pseudo classe
+
+        :nth-child(2n-1) //começa na primeira
+        :nth-child(2n) //começa na segunda
+
+        :nth-child(odd) //impar
+        :nth-child(even) //par
+ */
+
+ tbody > tr:nth-child(odd) { /* 2n-1 */
+    background-color: white;
+}
+
+tbody > tr:nth-child(even) { /* 2n */
+    background-color: lightgray;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th.TabelaPopulação {
+    width: 100px;
+}
+
+td.numero {
+    text-align: right;
+}
