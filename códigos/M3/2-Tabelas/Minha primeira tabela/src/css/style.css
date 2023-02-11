@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+
+}
+
+tr.linha {
+    background-color: rgb(190, 190, 190);
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td.dado {
+    background-color: rgb(211, 255, 182);
+}
