@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Mesclagem de células</title>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <h2>ex01</h2>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+    
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="3">8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            
+            <td>12</td>
+        </tr>
+        <tr>
+        
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+    <h2>ex02</h2>
+    <table>
+        <tr> 
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr> <!-- LINHA -->
+            <td rowspan="4">C</td>
+            <td>D</td> <!-- COLUNA -->
+            <td>E</td> <!-- COLUNA -->
+            <td>F</td> <!-- COLUNA -->
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td colspan="4">M</td>
+        </tr>
+    </table>
+</body>
+</html>
