@@ -1,5 +1,6 @@
-# Curso_HTML_and_CSS
- Curso de HTML e CSS
+# Curso_em_video
+ Cursos do curso em video
+ professor: Gustavo Guanabara
 
 <a href="https://erickotc.github.io/Curso_HTML_and_CSS/Desafios/M2/site%20android/Site/" target="_blank">Site do Android History</a>
 
